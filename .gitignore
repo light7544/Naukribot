@@ -1,0 +1,43 @@
+# Environment variables (contains sensitive credentials)
+.env
+.env.*
+!.env.example
+
+# Logs and runtime session data
+*.log
+*.session
+
+# Output & State CSV files
+*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local safety backups created before automated repairs
+backup_before_fix_*/

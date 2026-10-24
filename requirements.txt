@@ -1,0 +1,4 @@
+# Selenium Manager (included with Selenium 4.6+) handles EdgeDriver automatically.
+selenium>=4.20,<5
+python-dotenv>=1.0.0
+
